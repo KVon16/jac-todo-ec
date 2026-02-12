@@ -1,8 +1,8 @@
 # TaskFlow Orbit (EECS 449 Extra Credit 1)
 
 ## Student Info
-- Name: `REPLACE_WITH_YOUR_NAME`
-- UMID: `REPLACE_WITH_YOUR_UMID`
+- Name: Junjia Zheng
+- UMID: 77453623
 
 ## What This Project Includes
 This repo implements the full tutorial stack from the Jac **Build Your First App** sequence (Parts 1-3) and adds a custom feature called **Deadline Command Center**.
