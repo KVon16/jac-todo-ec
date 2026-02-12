@@ -99,7 +99,3 @@ Compatibility note:
 3. Use filter and sort controls to manage workload.
 4. Use **Rescue Overdue** to bulk complete overdue tasks.
 5. Use AI meal planner to generate shopping lists.
-
-## Notes for Submission
-- Part 0 (starring Jaseci repo) must still be done from your GitHub account manually.
-- Before submitting, replace Name/UMID placeholders above.
