@@ -1,0 +1,19 @@
+[project]
+name = "taskflow-orbit"
+version = "1.0.0"
+description = "Jac client application: TaskFlow Orbit"
+entry-point = "main.jac"
+
+[dependencies.npm]
+jac-client-node = "latest"
+
+[dependencies.npm.dev]
+"@jac-client/dev-deps" = "latest"
+
+[dev-dependencies]
+watchdog = ">=3.0.0"
+
+[serve]
+base_route_app = "app"
+
+[plugins.client]
