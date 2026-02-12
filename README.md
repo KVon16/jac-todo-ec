@@ -72,10 +72,15 @@ pip install jaclang
 jac --version
 ```
 
-4. Export an LLM API key (Anthropic used in this code):
+4. (Optional) Export an LLM API key for full AI behavior (Anthropic used in this code):
 ```bash
 export ANTHROPIC_API_KEY="your-key"
 ```
+
+No-key fallback trigger:
+- If `ANTHROPIC_API_KEY` is missing/invalid (or AI calls fail), the app still runs.
+- Todo creation falls back to category `"other"` instead of failing.
+- Meal-plan generation falls back safely (empty structured ingredient result) instead of crashing.
 
 5. From repo root, start the app:
 ```bash
